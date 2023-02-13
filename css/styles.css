@@ -275,7 +275,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
                 background-repeat: no-repeat;
                 background-size: cover;
                 height: 600px;
-                max-width: 1440рх;
+                max-width: 1440px;
+                margin: 0 auto;
+                
+               
 }
 .overlay{}
 
@@ -434,6 +437,10 @@ height: 40px;
         display: flex;
         justify-content: center; 
         align-items: center;
+}
+
+.team-soc-link:hover, .team-soc-link:focus{
+        background-color: var(--ocean);
 }
 
 .team-name{
